@@ -27,6 +27,7 @@ import CartDetail from '~/pages/CartDetail/CartDetail';
 import OrderSuccess from '~/pages/OrderSuccess/OrderSuccess';
 import PaymentReturn from '~/pages/PaymentReturn/PaymentReturn';
 import OrderDetail from '~/pages/OrderDetail';
+import Origin from '~/pages/Origin';
 
 // Public routes
 const publicRoutes = [
@@ -53,6 +54,7 @@ const publicRoutes = [
     { path: '/order-success/:orderId?', component: OrderSuccess },
     { path: '/payment-return', component: PaymentReturn },
     { path: '/orders/:orderId', component: OrderDetail },
+    { path: '/origins', component: Origin },
 ];
 
 const privateRoutes = [];

@@ -14,6 +14,8 @@ import {
     faStar,
     faMobilePhone,
     faCartPlus,
+    faIndustry,
+    faTruck,
 } from '@fortawesome/free-solid-svg-icons';
 import { Link, useNavigate } from 'react-router-dom';
 import Tippy from '@tippyjs/react';
@@ -324,6 +326,11 @@ function Header() {
             icon: <FontAwesomeIcon icon={faStar} />,
             title: 'Khuyến mãi',
             to: '/sales',
+        },
+        {
+            icon: <FontAwesomeIcon icon={faTruck} />,
+            title: 'Nơi xuất xứ',
+            to: '/origins',
         },
         {
             icon: <FontAwesomeIcon icon={faSignOutAlt} />, // thêm icon logout
