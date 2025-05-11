@@ -6,7 +6,7 @@ router.get("/", async (req, res) => {
     const categories = await Origin.find();
     res.json(categories);
   } catch (err) {
-    res.status(500).send("Lỗi khi lấy danh mục sản phẩm.");
+    res.status(500).send("Lỗi khi lấy nơi xuất xứ.");
   }
 });
 

@@ -28,6 +28,7 @@ import OrderSuccess from '~/pages/OrderSuccess/OrderSuccess';
 import PaymentReturn from '~/pages/PaymentReturn/PaymentReturn';
 import OrderDetail from '~/pages/OrderDetail';
 import Origin from '~/pages/Origin';
+import Manufacturer from '~/pages/Manufacturer';
 
 // Public routes
 const publicRoutes = [
@@ -55,6 +56,7 @@ const publicRoutes = [
     { path: '/payment-return', component: PaymentReturn },
     { path: '/orders/:orderId', component: OrderDetail },
     { path: '/origins', component: Origin },
+    { path: '/manufacturers', component: Manufacturer },
 ];
 
 const privateRoutes = [];

@@ -9,7 +9,6 @@ export const getOrigin = async () => {
     }
 };
 
-
 export const addOrigin= async (origins) => {
     try {
         return await httpRequest.post('/origins', origins, 

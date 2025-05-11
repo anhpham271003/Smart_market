@@ -333,6 +333,11 @@ function Header() {
             to: '/origins',
         },
         {
+            icon: <FontAwesomeIcon icon={faIndustry} />,
+            title: 'Hãng sản xuất',
+            to: '/manufacturers',
+        },
+        {
             icon: <FontAwesomeIcon icon={faSignOutAlt} />, // thêm icon logout
             icon: <FontAwesomeIcon icon={faSignOutAlt} />,
             title: 'Đăng xuất',
